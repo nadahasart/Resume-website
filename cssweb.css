@@ -1,0 +1,94 @@
+/*External style sheet Assignment 1*/
+/*Nada Hamza Abdulmanea*/
+/*2006860*/
+
+
+body                       {background-color: #173740;
+                                 background-image: url("flower.jpg");
+                                 background-position: center;
+                                 background-repeat: no-repeat;
+                                 background-size: cover;
+                                 color:#203F44;
+                                 font-weight: bold;
+                                 text-shadow: -4px 4px 6px #AD6F82;}
+
+header                    {font-size:24px;
+                                font-family: Georgia,Arial,Helvetica;
+                                text-align: center;
+                                border-radius: 20px;
+                                color: #670D2D;
+                                text-shadow: -4px 4px 6px #AD6F82;}
+
+div                        {background-color: rgb(203, 165, 177, 0.5); 
+                               -webkit-border-radius: 20px;
+                               border-radius: 20px;
+                               background-position: center;
+                               margin: 15%;
+                               padding:10px;}
+
+nav div                 {font-family: times new roman, helvetica, sans-serif;
+                              font-weight: bold;
+                              color:#424530;
+                              background-color: rgb(166, 142, 116, 0.7);
+                              -webkit-border-radius: 10px;
+                              border-radius: 10px;
+                              text-align: center;
+                              width:15%;
+                              margin: 10px -10px 10px 42%;
+                              padding: 5px;}
+
+nav div:hover           {background-color: #AD6F82;}
+
+h3                        {font-size: 20px;
+                              color:#E6D4D0;
+                              text-shadow: -4px 4px 6px black;}
+
+a                          {text-decoration: none;
+                              color:#E6D4D0;}
+
+ol a ,p a                {color:#BDC6E1;}
+
+ol a:hover,p a:hover  {text-decoration: underline;}
+
+div.progress         {background:none ;
+                              width:50%;
+                              margin: 0px;
+                              position: relative;
+                              left:0px;}
+
+div.progress-bar   {background-color: #AD6F82;
+                              position: relative;
+                              left:0px;
+                              margin: 5px;
+                              border-width: medium;
+                              border-color:#E6D4D0;
+                              border-style: inset;}
+
+@media screen and (max-width: 576px){
+        div.progress      {background:none ;
+                                   width:80%;}
+
+        nav div             {width:30%;
+                                   margin-left:35%;}
+
+        body                {background-repeat: repeat-y;}
+}
+
+@media only screen and (max-width: 768px),
+    (min-width: 768px){
+        body               {background-repeat: repeat-y;}
+}
+
+@media only screen and (max-width: 992px),
+    (min-width:992px){
+        body               {background-repeat: repeat-x;}
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
